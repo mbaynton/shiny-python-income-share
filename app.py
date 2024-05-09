@@ -15,7 +15,7 @@ select_countries = {
 }
 
 app_ui = ui.page_fluid(
-    ui.panel_title("Top 5% Income Share Revised"),
+    ui.panel_title("Top 5% Income Share"),
     ui.p("Share of income received by the richest 5% of the population"),
     ui.layout_sidebar(
         ui.panel_sidebar(
