@@ -1,7 +1,7 @@
 import altair as alt
 import pandas as pd
 from shinywidgets import output_widget, render_widget
-from shiny import App, reactive, ui
+from shiny import App, reactive, ui, uj
 
 income_shares = pd.read_csv("data.csv")
 countries = income_shares["Entity"].unique().tolist()
