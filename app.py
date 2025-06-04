@@ -90,7 +90,9 @@ def server(input, output, session):
         make_button_listener(name)
 
 
+time.sleep(15)
+sys.exit(1)
+
 app = App(app_ui, server)
 if __name__ == "__main__":
-    time.sleep(15)
-    sys.exit(1)
+    app.run()
