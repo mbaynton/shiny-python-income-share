@@ -1,3 +1,6 @@
+import time
+import sys
+
 import altair as alt
 import pandas as pd
 from shinywidgets import output_widget, render_widget
@@ -89,4 +92,5 @@ def server(input, output, session):
 
 app = App(app_ui, server)
 if __name__ == "__main__":
-    app.run()
+    time.sleep(15)
+    sys.exit(1)
